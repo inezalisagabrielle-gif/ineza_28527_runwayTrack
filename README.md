@@ -35,9 +35,8 @@ Small and mid-sized international airports such as Kigali International Airport 
 ---
 
 ## 5. Innovation Layer
-**User Interface Layer (Python Streamlit connected directly to Oracle via `python-oracledb`):**
-An interactive controller dashboard that visualizes live runway timelines, processes slot requests via PL/SQL procedures, and displays real-time conflict and audit log alerts.
-
+**User Interface (Oracle APEX):**
+An interactive web-based application built using Oracle Application Express (APEX) connected live to the Oracle database. Air traffic controllers use the APEX interface to submit slot requests, manage flight schedules, and instantly view live runway slot assignments alongside automated conflict alerts.
 ---
 
 ## 6. Planned Database Tables & PL/SQL Features
